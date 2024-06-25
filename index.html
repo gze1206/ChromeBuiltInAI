@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Chat Interface</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="loading" class="loading"></div>
+    <div id="popup" class="popup hidden">
+        <div class="popup-content">
+            <p>AI 서비스를 사용할 수 없습니다. Built-in AI 기능을 활성화해주세요.</p>
+            <button id="popup-button">방법 확인</button>
+        </div>
+    </div>
+    <div id="chat-container">
+        <div id="chat-window">
+            <div id="messages"></div>
+        </div>
+        <div id="input-container">
+            <input type="text" id="prompt" placeholder="Type your message..." onkeypress="if(event.key === 'Enter') sendPrompt()"/>
+            <button id="send-button" onclick="sendPrompt()">&#9658;</button>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
