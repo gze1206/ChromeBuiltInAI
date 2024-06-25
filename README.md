@@ -1,4 +1,4 @@
-# Chrome Built-In AI Chat Interface
+# Chrome 내장 AI를 사용한 채팅 인터페이스
 
 Chrome의 내장 AI 기능을 활용해 간단한 채팅 인터페이스 웹 서비스를 제작해보았습니다.<br/>
 사용자는 입력 창에 질문을 입력하고 AI로부터 답변을 받을 수 있습니다.
@@ -13,7 +13,7 @@ Chrome의 내장 AI 기능을 활용해 간단한 채팅 인터페이스 웹 서
 
 ## Chrome Built-in AI
 
-자세한 내용인 [이 곳](https://docs.google.com/document/d/1VG8HIyz361zGduWgNG7R_R8Xkv0OOJ8b5C9QKeCjU0c/edit)에서 확인해주세요.
+Chrome의 내장 AI 기능에 대한 자세한 내용은 [이 곳](https://docs.google.com/document/d/1VG8HIyz361zGduWgNG7R_R8Xkv0OOJ8b5C9QKeCjU0c/edit)에서 확인해주세요.
 
 ## 기능
 - 사용자 질문 입력
